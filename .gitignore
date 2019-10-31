@@ -21,3 +21,43 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+1. (a+b+c)^3-(a-b)^2
+
+int cube(int a){
+int b=3;
+int r =1;
+int i=1;
+while(i<=b)
+{
+r=r*a;
+i++;
+}
+System.out.printlin(r);
+}
+
+int add(int a,int b,int c){
+int d=a+b+c;
+System.out.println(c);
+}
+
+int sub(int a,int b){
+int c=a-b;
+System.out.println(c);
+}
+
+int sq(int a){
+int r=1;
+int i=1;
+while(i<=2)
+{
+r=r*a;
+i++;
+}
+System.out.println(r);
+}
+
+void result = sub(cube(add(4,3,5)),sq(sub(4,3)))
+System.out.println(result);
+
+
